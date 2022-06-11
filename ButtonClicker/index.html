@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Patrick+Hand&display=swap" rel="stylesheet">  
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="navbarcontent">  
+                <h1 id="navHeadText">Dojonary</h1>
+                <input type="search" id="navSearch" value="Search" name="searchInput">
+                <button id="navLoginButton" onclick="logout(this)">Login</button>
+            </div>
+        </div>
+        <div class="contentPlane">
+            <div class="mainContentPlane">
+                <div class="dataPlane">
+                    <div class="wordPlane">
+                        <h1>ninja</h1>
+                        <h3>noun</h3>
+                        <p>Plural: ninjas</p>
+                        <button id="likeButton" onclick="like()">13 likes</button>
+                    </div>
+                    <div class="definationPlane">
+                        <p>A Practitioner skilled in the <a href="">Janpanese</a> art of <a href="">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="dataPlane">
+                    <div class="wordPlane">
+                        <h1>ninja</h1>
+                        <h3>noun</h3>
+                        <p>Plural: ninjas</p>
+                        <button id="likeButton" onclick="like()">37 likes</button>
+                    </div>
+                    <div class="definationPlane">
+                        <p>A <a href="">programmer</a> who breaks down problems like <a href="">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sidePlane">
+                <div class="sideDataPlane">
+                    <p>Dojonary defined by <b>YOU</b></p>
+                    <button id="addDefinationButton" onclick="addDefination(this)">Add Defination</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

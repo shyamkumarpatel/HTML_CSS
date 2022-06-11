@@ -1,0 +1,108 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.container{
+    width: 750px;
+    height: 1000px;
+}
+
+.navBar{
+    background-color: black;
+    color: white;
+    height: 75px;
+}
+
+.navBar h1{
+    padding: 15px;
+}
+
+.yourFeed{
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 300px;
+}
+
+.contentPlane{
+    width: 750px;
+    height: 850px;
+    display: flex;
+}
+
+.userPlane{
+    flex: 1;
+    height: 850px;
+
+}
+.feedPlane{
+    flex:2;
+    height: 850px;
+}
+
+.userBox{
+    margin: 0px 10px 0px 0px;
+    border: solid 2px black;
+    width: 236px;
+    height: 350px;
+    text-align: center;
+}
+
+.userBox img{
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+
+}
+.userBox p, .userBox h1{
+    padding: 25px;
+}
+
+.feed-container{
+    border: solid 2px black;
+    width: 496px;
+    height: 200px;
+    margin: 0px 0px 5px 0px;
+}
+
+.row-1{
+    height: 70px;
+    width: 470px;
+    padding: 15px;
+    display: flex;
+}
+
+.col-1{
+    height: 55px;
+    flex: 1;
+    padding-top: 15px;
+}
+
+.col-2{
+    flex: 1;
+    height: 55px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col-2 p{
+    font-size: 1.5em;
+    padding-top: 7px;
+}
+
+.likeButton {
+    background-color: yellow;
+    font-size: 1.75em;
+    height: 40px;
+    width: 100px;
+    color: black;
+    box-shadow: 5px 5px 2px black;
+}
+
+.row-2{
+    height: 70px;
+    width: 470px;
+    padding: 15px;
+    font-size: 1.5em;
+}

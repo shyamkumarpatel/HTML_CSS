@@ -1,0 +1,35 @@
+div {
+    display: flexbox;
+    margin: 50px;
+}
+
+.search {
+    border: 2px solid aquamarine;
+    background-color: transparent;    
+    color:aquamarine; 
+    font-weight: bold;
+    font-size: 1.25em;
+    height: 25x;
+    width: 250px;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.plusButton {
+    background-color: aquamarine;    
+    border-color: aquamarine;
+    color: white;
+    font-weight: bold;
+    font-size: 1.75em;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.createAccount {
+    background-color: blue;
+    height: 40px;
+    width: 150px;
+    color: white;
+    box-shadow: 10px 5px 5px black;
+}

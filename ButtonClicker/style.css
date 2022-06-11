@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.container{
+    width: 1000px;
+    height: 750px;
+    margin: 0px auto;
+}
+
+.navbar{
+    width: inherit;
+    height: 85px;
+    background-color: lightgray;
+}
+
+.navbarcontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+#navHeadText{
+    font-size: 2.5em;
+}
+
+#navSearch{
+    color: lightgray;
+    border: solid 3px black;
+    font-size: 1.5em;
+    width: 500px;
+    height: 35px;
+    padding: 5px;
+}
+
+#navLoginButton {
+    background-color: blue;
+    height: 40px;
+    width: 100px;
+    color: white;
+    font-size: 1.5em;
+    box-shadow: 4px 4px 5px black;
+}
+
+
+.contentPlane{
+    width: inherit;
+    height: 665px;
+    display: flex;
+}
+
+.mainContentPlane{
+    flex:2;
+    height: inherit;
+}
+
+.sidePlane{
+    flex: 1;
+    height: inherit;
+}
+
+.dataPlane{
+    display: flex;
+    border: solid 2px black;
+    margin: 20px 10px 10px 0px;
+    height: 300px;
+}
+
+.wordPlane{
+    flex:1;
+    padding: 10px;
+    font-size: 2em;
+    text-align: center;
+}
+.definationPlane{
+    flex:2;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    font-size: 2em;
+}
+
+#likeButton{
+    background-color: yellow;
+    height: 50px;
+    width: 150px;
+    color: black;
+    font-size: 1em;
+    box-shadow: 4px 4px 5px black;
+    margin: 25px;
+}
+
+.sideDataPlane{
+    border: solid 2px black;
+    margin: 20px 0px 10px 10px;
+    padding: 25px 10px 25px 10px;
+    height: 200px;
+    font-size: 2.75em;
+}
+
+#addDefinationButton{
+    background-color: greenyellow;
+    height: 60px;
+    width: 275px;
+    color: black;
+    font-size: 1em;
+    box-shadow: 4px 4px 5px black;
+    margin: 10px;
+
+}

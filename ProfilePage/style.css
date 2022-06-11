@@ -1,0 +1,299 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+.banner{
+    width:100%;
+    height: 75px;
+    background-color: black;
+}
+
+.navbar{
+    margin: 0 auto;
+    width: 1000px;
+    height: 75px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.nav-items{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    
+}
+.nav-items li {
+    list-style-type: none;
+    padding-right: 25px;
+    font-size: 1.25em;
+}
+.nav-items a {
+    color: white;
+    text-decoration: none;
+}
+
+.signOutBtn{
+    background-color: hsl(188deg 78% 41%);
+    height: 50px;
+    color:white;
+    font-size: 1em;
+    padding: 2px 10px 2px 10px;
+    box-shadow: 2px 2px black;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1000px;
+    height: 750px;
+    display: flex;
+    margin-top: 25px;
+}
+
+.contentBody{
+    flex:2;
+    height: inherit;
+}
+
+.sideBar{
+    flex:1;
+    height: inherit;
+}
+
+
+.user-container{
+    background-color: lightgray;
+    width: 650px;
+    height: 375px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+.user-banner{
+    background-color: aqua;
+    height: 100px;
+    width: 650px;
+  }
+
+  .userCircle{
+    position: absolute;
+    background-color: white;
+    width: 110px;
+    height:110px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 55px;
+    border: solid grey 1px;
+  }
+  
+  .userCircle > img{
+    padding: 5px;
+    width: 100px;
+    height:100px;
+  }
+
+  .contentPlane{
+    margin: 0 auto;
+    padding-top: 75px;
+    padding-left: 50px;
+    background-color: white;
+    height: 195px;
+    width: 590px;
+  }
+
+  .location{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .locationHeight{
+    height: 22px;
+    margin-right: 10px;
+  }
+  
+  .missionStatement{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .gearHeight{
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .user-container-2{
+    background-color: lightgray;
+    width: 650px;
+    height: 310px;
+    margin-left: 0px;
+}
+
+.user-banner-2{
+    background-color: rgb(58, 56, 56);
+    height: 35px;
+    width: 625px;
+    color: white;
+    padding-top: 15px;
+    padding-left: 25px;
+    font-size: 1.5em;
+  }
+
+.contentPlane-2{
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-left: 50px;
+    background-color: white;
+    height: 240px;
+    width: 590px;
+  }
+
+  .contentPlane-2 h1{
+      margin-bottom: 15px;
+  }
+  .contentPlane-2 p{
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+  #contentPlane-2PTag{
+      color: grey;
+  }
+
+
+  .side-container{
+    background-color: lightgray;
+    width: 325px;
+    height: 200px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.side-banner{
+    background-color: rgb(58, 56, 56);
+    height: 40px;
+    width: 255px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 1.5em;
+    display: flex;
+  }
+
+  .round-shape{
+      background-color: lightgray;
+      border-radius: 50%;
+      width: 25px;
+      height: 30px;
+      color: black;
+      text-align: center;
+      margin-right: 10px;
+  }
+
+  .side-container-2{
+    background-color: lightgray;
+    width: 325px;
+    height: 370px;
+    margin-right: 0px;
+    margin-top: 25px;
+}
+
+.side-banner-2{
+    background-color: rgb(58, 56, 56);
+    height: 40px;
+    width: 255px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 1.5em;
+    display: flex;
+  }
+
+  .round-shape-2{
+    background-color: lightgray;
+    border-radius: 50%;
+    width: 70px;
+    height: 30px;
+    color: black;
+    text-align: center;
+    margin-right: 10px;
+}
+
+/* .sideUserContent{
+    background-color: beige;
+} */
+
+.sideUserContent img{
+    width: 50px;
+    height: 50px;
+}
+
+.sideContentPlane{
+    padding: 10px;
+    margin: 0 auto;
+    background-color: white;
+    height: 125px;
+    width: 295px;
+  }
+
+.sideContentPlane-2{
+    padding: 10px;
+    margin: 0 auto;
+    background-color: white;
+    height: 235px;
+    width: 295px;
+  }
+
+  .sideUserContent{
+      display: flex;
+  }
+
+  .sideUserContent-action{
+      padding-right: 5px;
+  }
+
+  #Phil{
+      margin-right: 5px;
+  }
+
+  .sideUserContent-user{
+      display: flex;
+      align-items: center;
+      padding-right: 40px;
+      padding-bottom: 15px;
+  }
+
+  .sideUserContent-user p{
+      font-size: 1.65em;
+      padding-left: 15px;
+  }
+
+  .sideUserContent-2{
+    font-size: 1.65em;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+}
+
+.sideUserContent-2 img{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+
+.sideContentPlane-viewMore{
+    margin: 0 auto;
+    padding: 10px 0px 10px 15px;
+    margin-top: 5px;
+    background-color: white;
+    height: 35px;
+    width: 300px;
+  }
+  .sideContentPlane-viewMore a{
+      font-size: 1.75em;
+  }

@@ -1,0 +1,30 @@
+h1{
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+
+h1 > span {
+    color:aqua;
+    margin: 0px;
+}
+
+h2{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+}
+
+h3{
+    background-color: skyblue;
+    color:black;
+    text-align: right;
+    text-decoration: underline;
+    padding: 10px;
+}
+#marginID{
+    margin: 10px;
+}
